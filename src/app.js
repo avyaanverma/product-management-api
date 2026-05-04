@@ -6,6 +6,7 @@ const app = express();
 let users = [];
 
 app.use(express.json());
+
 app.get('/', (req,res)=>{
     res.send('Welcome to the Product');
 })
